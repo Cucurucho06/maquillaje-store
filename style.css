@@ -44,3 +44,23 @@ button {
     cursor: pointer;
     transition: background 0.3s ease;
 }
+
+button:hover {
+    background-color: #8f6b54;
+}
+
+.producto img {
+    width: 100%;
+    max-width: 200px; /* Ajusta según lo necesites */
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.producto p {
+    font-weight: bold;
+    color: #b58e72; /* Un tono elegante */
+}
