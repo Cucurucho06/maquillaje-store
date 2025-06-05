@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda de Maquillaje</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>✨ Belleza Natural ✨</h1>
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="productos" class="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="grid">
+      <div class="producto">
+        <img src="images/labial.jpg" alt="Labial Rojo" />
+        <h3>Labial Rojo</h3>
+        <p>$8.99</p>
+        <button>Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="images/base.jpg" alt="Base líquida" />
+        <h3>Base Líquida</h3>
+        <p>$12.99</p>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required />
+      <input type="email" placeholder="Tu correo" required />
+      <textarea placeholder="Tu mensaje"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Belleza Natural</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
