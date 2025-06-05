@@ -49,18 +49,37 @@ button:hover {
     background-color: #8f6b54;
 }
 
-.producto img {
-    width: 100%;
-    max-width: 200px; /* Ajusta según lo necesites */
-    margin-bottom: 10px;
-}
+<section class="categoria">
+    <h2>Labiales</h2>
+    <div class="grid">
+        <!-- Producto 1 -->
+    </div>
+</section>
 
-.producto h3 {
-    margin-top: 10px;
-    font-size: 18px;
-}
+<section class="categoria">
+    <h2>Bases</h2>
+    <div class="grid">
+        <!-- Producto 2 -->
+    </div>
+</section>
 
-.producto p {
-    font-weight: bold;
-    color: #b58e72; /* Un tono elegante */
-}
+<section class="categoria">
+    <h2>Bases</h2>
+    <div class="grid">
+        <!-- Producto 3 -->
+    </div>
+</section>
+
+<section class="categoria">
+    <h2>Bases</h2>
+    <div class="grid">
+        <!-- Producto 4 -->
+    </div>
+</section>
+
+<section class="categoria">
+    <h2>Accesorios</h2>
+    <div class="grid">
+        <!-- Productos restantes -->
+    </div>
+</section>
