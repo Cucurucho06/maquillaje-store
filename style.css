@@ -7,6 +7,13 @@ body {
     padding: 0;
 }
 
+body {
+    background-image: url('images/patron-lineas.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Contenedor principal de productos */
 .grid {
     display: grid;
@@ -99,5 +106,3 @@ button:hover {
 .logo-container::after {
     bottom: -10px; /* Línea inferior */
 }
-
-
