@@ -106,25 +106,3 @@ button:hover {
 .logo-container::after {
     bottom: -10px; /* Línea inferior */
 }
-
-.categoria {
-    margin-bottom: 40px;
-    text-align: center;
-}
-
-.categoria h3 {
-    font-size: 22px;
-    color: #4a3f35;
-    margin-bottom: 15px;
-    border-bottom: 2px solid #b58e72; /* Línea decorativa */
-    display: inline-block;
-    padding-bottom: 5px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    justify-content: center;
-}
