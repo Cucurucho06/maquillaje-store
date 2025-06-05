@@ -65,7 +65,7 @@ button:hover {
 }
 
 .producto {
-    background: #918178; /* Asegura que cada producto tenga su propio fondo */
+    background: #a3450e; /* Asegura que cada producto tenga su propio fondo */
     padding: 30px;
     border-radius: 20px;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
