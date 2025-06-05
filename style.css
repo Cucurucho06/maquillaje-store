@@ -68,3 +68,36 @@ button:hover {
     text-align: center;
 }
 
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajusta la altura */
+    margin: 40px auto; /* Centra la imagen */
+    position: relative; /* Permite agregar decoraciones */
+}
+
+.logo-container img {
+    max-width: 120px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+}
+
+/* Líneas decorativas alrededor */
+.logo-container::before,
+.logo-container::after {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 2px;
+    background-color: #4a3f35; /* Color de las líneas */
+}
+
+.logo-container::before {
+    top: -10px; /* Línea superior */
+}
+
+.logo-container::after {
+    bottom: -10px; /* Línea inferior */
+}
+
+
