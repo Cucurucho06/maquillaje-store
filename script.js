@@ -1,5 +1,5 @@
 document.querySelectorAll("button").forEach((btn) => {
   btn.addEventListener("click", () => {
-    alert("Gracias por tu compra 💄");
+    alert("Gracias por tu Mensaje 💄");
   });
 });
