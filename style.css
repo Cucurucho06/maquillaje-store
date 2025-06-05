@@ -1,7 +1,7 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #dfc9b6; /* Un tono beige suave */
+    background-color: #cfbfac; /* Un tono beige suave */
     color: #796c60;
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ body {
 
 /* Estilos de cada producto */
 .producto {
-    background: #cebdb0;
+    background: #ffffff;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
@@ -65,7 +65,7 @@ button:hover {
 }
 
 .producto {
-    background: #7e6d64; /* Asegura que cada producto tenga su propio fondo */
+    background: #918178; /* Asegura que cada producto tenga su propio fondo */
     padding: 30px;
     border-radius: 20px;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
