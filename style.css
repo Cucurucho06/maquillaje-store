@@ -8,7 +8,7 @@ body {
 }
 
 body {
-    background-image: url('images/patron-lineas.svg');
+    background-image: url('images/fondo-abstracto.svg'); /* Ruta a tu archivo */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
