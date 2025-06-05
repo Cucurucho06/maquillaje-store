@@ -1,8 +1,8 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    background-color: #cfbfac; /* Un tono beige suave */
-    color: #796c60;
+    background-color: #ecd2b3; /* Un tono beige suave */
+    color: #f8f8f8;
     margin: 0;
     padding: 0;
 }
@@ -53,7 +53,7 @@ button {
 }
 
 button:hover {
-    background-color: #8f6b54;
+    background-color: #ffffff;
 }
 
 .grid {
@@ -65,7 +65,7 @@ button:hover {
 }
 
 .producto {
-    background: #a3450e; /* Asegura que cada producto tenga su propio fondo */
+    background: #c7ac93; /* Asegura que cada producto tenga su propio fondo */
     padding: 30px;
     border-radius: 20px;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
