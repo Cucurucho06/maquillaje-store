@@ -44,7 +44,7 @@ body {
 /* Botones minimalistas */
 button {
     background-color: #b58e72;
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
